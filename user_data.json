@@ -1,0 +1,63 @@
+{
+    "firstTry21": {
+        "password": "12345678",
+        "country": "India",
+        "balance": 100000,
+        "transaction_log": []
+    },
+    "user02": {
+        "password": "12345678",
+        "country": "UK",
+        "balance": 100000,
+        "transaction_log": [
+            {
+                "from": "UK",
+                "to": "Saudi",
+                "amount": 96543,
+                "currency": "GBP",
+                "transaction_fee": 0.99
+            }
+        ]
+    },
+    "user03": {
+        "password": "12345678",
+        "country": "Saudi",
+        "balance": 100000,
+        "transaction_log": []
+    },
+    "user04": {
+        "password": "12345678",
+        "country": "Canada",
+        "balance": 100000,
+        "transaction_log": [
+            {
+                "from": "Canada",
+                "to": "India",
+                "amount": 1000,
+                "currency": "CAD",
+                "transaction_fee": 1.99
+            }
+        ]
+    },
+    "user05": {
+        "password": "12345678",
+        "country": "US",
+        "balance": 100000,
+        "transaction_log": []
+    },
+    "transaction_log": [
+        {
+            "sender": "user04",
+            "recipient": "firstTry21",
+            "amount": 1000,
+            "currency": "CAD",
+            "fee": 1.99
+        }
+    ],
+    "userTEST": {
+        "password": "12345678",
+        "country": "US",
+        "balance": 100000,
+        "transaction_log": []
+    }
+}
